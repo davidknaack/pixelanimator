@@ -2,6 +2,14 @@
  Name:		Player.ino
  Created:	12/3/2016 5:00:41 PM
  Author:	david
+ Purpose:   Arduino sketch for driving a NeoPixel LED strip.
+			Display patterns are read from 'PXM' pixel map files
+			found on the SD card and displayed line-by-line.
+			PXM files are created by the PixelAnimator utility
+			which reads BMP, GIF, JPG, and PNG files and outputs
+			uncompressed RGB pixel data (and some header info).
+			Display brightness may be controlled with an analog
+			input.
 */
 
 #include <FastLED.h>
