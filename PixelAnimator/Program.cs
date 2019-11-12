@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Drawing;
 using System.IO;
-using System.Threading;
-using CommandLine;
 
 namespace PixelAnimator
 {
+    /// <summary>
+    /// PixelAnimator is a simple command-line utility for converting
+    /// image files to uncompressed RGB data for display in the Player
+    /// Arduino sketch. 
+    /// </summary>
     class PixelAnimator
     {
         static int Main(string[] args)
